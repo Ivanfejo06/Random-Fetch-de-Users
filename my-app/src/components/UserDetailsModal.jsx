@@ -1,5 +1,4 @@
 import React from "react";
-import "./UserDetailsModal.css";
 
 const UserDetailsModal = ({ user, onClose }) => {
     return (
