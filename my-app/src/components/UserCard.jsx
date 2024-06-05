@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserCard = ({ user, onClick }) => {
+const UserCard = ({user, onClick}) => {
     return (
         <div className="user-card" onClick={onClick}>
             <img src={user.picture.thumbnail} alt={user.name.first} />

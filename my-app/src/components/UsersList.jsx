@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 import UserCard from "./UserCard";
 import UserDetailsModal from "./UserDetailsModal";
 import "./UsersList.css";

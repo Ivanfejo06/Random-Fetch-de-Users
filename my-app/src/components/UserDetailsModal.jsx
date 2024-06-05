@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserDetailsModal = ({ user, onClose }) => {
+const UserDetailsModal = ({user, onClose}) => {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
